@@ -1,0 +1,7 @@
+if(NOT Qt5Core_FOUND)
+    find_package(Qt5Core REQUIRED)
+    get_target_property(QtCore_LIBRARIES Qt5::Core LOCATION)
+    message(STATUS "Qt5Core_FOUND              ${Qt5Core_FOUND}")
+    message(STATUS "Qt5Core_LIBRARIES          ${QtCore_LIBRARIES}")
+    message("")
+endif()
