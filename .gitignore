@@ -35,3 +35,6 @@ build/
 
 # QtCreator
 CMakeLists.txt.user
+
+# JetBrains
+.idea
